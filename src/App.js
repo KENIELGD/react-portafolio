@@ -12,8 +12,8 @@ function App() {
         <div className="App">   
         </div>
         <Switch>
-          <Route path='/' component={Page} exact />
-          <Route path='/portafolio' component={Portafolio} exact />
+          <Route path='/' component={Page} />
+          <Route path='/portafolio' component={Portafolio} />
           <Route component={Error404} />
         </Switch>
       </BrowserRouter>
